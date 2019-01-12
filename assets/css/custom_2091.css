@@ -1,0 +1,333 @@
+/*custom.css created by Prathyangiras Karthikeyan*/
+body
+{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+}
+
+.scrolling-wrapper 
+	{
+					  overflow-x: auto;
+					  overflow-y: hidden;
+					  white-space: nowrap;
+					  padding-bottom: 5px;
+	}
+	.cards {
+			display: inline-block;
+			margin:5px;
+		  }
+
+.guessing_item
+{
+	padding:5px;
+	margin:1px;
+	border:thin 1px #CCC;
+	background-color:rgba(255,255,255,0.3);
+}
+
+.need_ucfirst
+{
+	text-transform:capitalize;
+}
+
+.guessing_item:hover
+{
+	background-color:rgba(204,204,204,0.1);
+	cursor:pointer;
+	color:#000;
+}
+
+select
+{
+	height:43px; !important
+}
+
+.content_div_1
+{
+	padding:10px;
+}
+
+.breadcrumps
+{
+	margin-left:5%;
+}
+
+.breadcrump a
+{
+	color:#333;
+	text-decoration:none;
+}
+
+a
+{
+	color:#333;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#999;
+	text-decoration:none;
+}
+
+.breadcrump_active
+{
+	color:#F03;
+}
+
+.need_hover:hover
+{
+	text-shadow:0px 0px 1px #333;
+	cursor:pointer;
+}
+
+.front_icon
+{
+	background:none;
+	border-radius:10px;
+	alignment-adjust:middle;
+	text-align:center;
+	padding:10px;
+	margin:10px;
+	width:100%;
+	margin-left:30px;
+	margin-right:30px;
+	box-shadow:0px 0px 5px rgba(204,204,204,1);
+}
+
+.front_icon img
+{
+	width:70px;
+	height:auto;
+}
+
+.front_icon:hover
+{
+	box-shadow:0px 15px 30px rgba(204,204,204,0.3);
+	cursor:pointer;
+	color:#fff;
+	background:url(../../assets/images/site_images/small_blue_tiles.jpg);
+}
+
+.front_icon_vertical
+{
+	alignment-adjust:middle;
+	text-align:center;
+}
+
+.front_icon_vertical img
+{
+	width:70px;
+	height:auto;
+	
+}
+
+.topic_bar_1
+{
+	margin-left:5%;
+	font-size:1em;
+	padding:10px 10px 10px 10px;
+	font-size:1em;
+	text-transform:uppercase;
+}
+
+.gap_1
+{
+	font-size:2em;
+}
+
+.btn-light, .btn-outline-secondary
+{
+	background-color:#c51249;
+	background:url(../../assets/images/site_images/small_blue_tiles.jpg);
+	color:#fff;
+	height:43px;
+	alignment-adjust:middle;
+	text-align:center;
+	line-height:30px;
+	margin-bottom:1px;
+	border-radius:5px;
+}
+.btn-light:clicked
+{
+	background-color:#c51249;
+	color:#fff;
+}
+.btn-light:hover
+{
+	background-color:#c51249;
+	color:#fff;
+}
+.show>.btn-light.dropdown-toggle
+{
+    color: #FFF;
+    background-color: #c51249; !important;
+    border-color: #63C;
+}
+.dropdown-menu
+{
+	animation:example ease-in 0.3s;
+	padding:5px;
+	transition:ease-in;
+	background:url(../../assets/images/site_images/small_blue_tiles.jpg);
+	color:#fff;	
+	border-radius:10px;
+}
+
+a.dropdown-item
+{
+	color:#fff;
+	background-color:rgba(255,255,255,0.1);
+
+}
+
+.label1
+{
+	font-size:1.3em;
+}
+
+.label2
+{
+	margin-bottom:-1px;
+	padding-top:5px;
+}
+
+.label3
+{
+	font-size:0.6em;
+	text-transform:capitalize;
+	margin-bottom:-5px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+	height: 10px;
+	position:relative;
+	right:0px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #CCC; 
+    border-radius:5px;
+	background-color:#FFF; 
+	
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+	background-color:#333;
+	-webkit-box-shadow: inset 0 0 6px #CCC; 
+}
+::-webkit-resizer{
+	width: 10px;
+	position:relative;
+}
+	
+}
+
+
+.select_box
+{
+	padding:3px; 
+	height:43px;
+}
+
+.alert:hover
+{
+	box-shadow:0px 1px 5px #rgba(204,204,204,0.5);
+}
+
+
+
+.small-txt
+{
+	font-size:0.8em;
+}
+
+.right_side_buttons
+{
+	cursor:pointer;
+}
+
+.top_menu_bar
+{
+	position:fixed; top:0px; display:block; width:100%; z-index:1000; box-sizing:border-box;
+	
+}
+.text_light
+{
+	color:#999;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 1s infinite pulse;
+  animation: fa-spin 1s infinite pulse;
+}
+
+.fav_gradient
+{
+	border-radius:0px;
+	box-shadow:0px 2px 5px rgba(0,0,0,0.5);
+	/*box-shadow:inset 0px 0px 5px #666;*/
+    
+    background: -webkit-linear-gradient(#F90,#ff068e);  !important/* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow);  !important/* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); !important /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow);  !important/* Standard syntax */
+	border:none; !important
+	color:#fff;
+	box-shadow:none; !important
+}
+
+.alert
+{
+	
+}
+
+.loader
+{
+	display:block; font-size:100px; color:#fff; text-shadow:0px 0px 3px #333;  background-color:rgba(51,51,51,0.5); box-sizing:border-box; padding:10%; text-align:center;
+}
+@media (max-width: 699px)
+{
+	.top_menu_bar
+	{
+		position:relative; width:100%; z-index:1000; box-sizing:border-box;
+	}
+}
+
+.breadcrumps_section
+{
+	zoom:0.89;
+}
+
+.dancing
+{
+	animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+
+@keyframes example {
+    from {opacity:0.0;}
+    to {opacity:1.0;}
+}
+
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+.form-control
+{
+	padding:10px; !important
+	border:none; !important
+	/*border:solid 1px rgba(102,51,153,0.5); !important*/
+	border-bottom:solid 1px #333; !important
+	font-size:0.9em; !important
+	font-weight:bold; !important
+}
+

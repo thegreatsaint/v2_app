@@ -1,0 +1,6 @@
+# Always use www in the domain
+# Replace 'example.com' with your domain name
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^([a-z.]+)?thegreatsaint\.com$ [NC]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .? https://www.%1thegreatsaint.com%{REQUEST_URI} [R=301,L]
